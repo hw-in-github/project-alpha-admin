@@ -19,7 +19,7 @@
             "ref": "origin/master",
             "repo": "https://github.com/hw-in-github/project-alpha-admin.git",
             "path": "/www/admin/production",
-            "post-deploy":"npm install -f && pm2 startOrRestart ecosystem.json --env production",
+            "post-deploy":"npm install && pm2 startOrRestart ecosystem.json",
             "ssh_options": "StrictHostKeyChecking=no",
             "env": {
                 "NODE_ENV": "production"
