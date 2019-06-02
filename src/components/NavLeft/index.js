@@ -36,7 +36,7 @@ export default class NavLeft extends Component {
                 <NavLink to="/home">
                 <div className="logo">
                     <img src="/assets/logo.svg" alt="" />
-                    <h1>学车帮</h1>
+                    <h1>SmartDriver</h1>
                 </div>
                 </NavLink>
                 <Menu className="menu" theme="dark">

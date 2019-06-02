@@ -22,12 +22,12 @@ export default class Login extends React.Component {
             <div className="login-page">
                 <div className="login-header">
                     <div className="logo">
-                        学车帮demo项目后台管理系统
+                        SmartDriver demo项目后台管理系统
                     </div>
                 </div>
                 <div className="login-content-wrap">
                     <div className="login-content">
-                        <div className="word">学车帮 <br />互联网学车首选 </div>
+                        <div className="word">SmartDriver <br />互联网学车首选 </div>
                         <div className="login-box">
                             <div className="error-msg-wrap">
                                 <div
@@ -35,7 +35,7 @@ export default class Login extends React.Component {
                                     {this.state.errorMsg}
                                 </div>
                             </div>
-                            <div className="title">学车帮欢迎你</div>
+                            <div className="title">SmartDriver欢迎你</div>
                             <LoginForm ref="login" loginSubmit={this.loginReq}/>
                         </div>
                     </div>
