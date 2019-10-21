@@ -10,7 +10,7 @@ export default class Axios {
             loading.style.display = 'block';
         }
         // let baseApi = 'http://localhost:5050';
-        let baseApi = 'https://projectalpha.applinzi.com';
+        let baseApi = 'https://alphaproject.applinzi.com';
         return new Promise((resolve,reject)=>{
             axios({
                 url:options.url,
